@@ -34,16 +34,35 @@ python Exchange-Rate-Data-Retrieval.ipynb
 
 ## Usage
 
-- Modify the parameters in the `main.py` script to customize data retrieval and analysis.
+Install required libraries:
+!pip install requests
+
+Run the Python script:
+import requests
+import pandas as pd
+from pandas import json_normalize
+
+api_url ='https://api.frankfurter.app/2013-01-01..2023-08-31'
+
+response = requests.get(api_url)
+data = response.json()
+
+- Modify the parameters in the `Exchange-Rate-Data-Retrieval.ipynb` script to customize data retrieval and analysis.
 - Explore the Jupyter Notebook files for detailed analysis and visualization examples.
 
-## Contributors
+## Contributor
 
-- [Your Name](https://github.com/your_username)
+- [CoderOgoo](https://github.com/Ogoms)
+
+- Contributions to this project are welcome! If you would like to contribute, please fork the repository and submit a pull request with your changes.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## **Contact**
+For any inquiries or suggestions, please contact CoderOgoms at https://github.com/Ogoms
+
 
 
 
