@@ -19,7 +19,32 @@ This Python project utilizes the Frankfurter API along with Python libraries suc
 ## Installation
 
 1. Clone the repository:
-git clone <repository_url>
+git clone <https://github.com/Ogoms/Exchange-Rate-Data-Retrieval-with-Frankfurter-API.git>
+
+
+2. Install the required dependencies:
+
+pip install -r requirements.txt
+
+
+3. Run the main script:
+
+python Exchange-Rate-Data-Retrieval.ipynb
+
+
+## Usage
+
+- Modify the parameters in the `main.py` script to customize data retrieval and analysis.
+- Explore the Jupyter Notebook files for detailed analysis and visualization examples.
+
+## Contributors
+
+- [Your Name](https://github.com/your_username)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
 
