@@ -1,3 +1,31 @@
+# Exchange Rate Data Retrieval and Analysis
+
+This Python project utilizes the Frankfurter API along with Python libraries such as Pandas, Requests, and Matplotlib to retrieve exchange rate data, perform data preprocessing, exploratory data analysis (EDA), and analyze currency relationships.
+
+## Technologies Used
+
+- Python
+- Pandas
+- Requests
+- Matplotlib
+
+## Features
+
+1. **Data Retrieval:** Exchange rate data is retrieved from the Frankfurter API using the Requests library.
+2. **Data Preprocessing:** Raw data is processed and cleaned using Pandas to ensure quality for analysis (Converts the JSON response from the API into a Pandas DataFrame for easy manipulation and analysis).
+3. **Exploratory Data Analysis (EDA):** Various statistical and visual analyses are performed to gain insights into the dataset.
+4. **Currency Relationship Analysis:** Relationships between different currencies are explored and analyzed using mathematical and statistical techniques.
+
+## Installation
+
+1. Clone the repository:
+git clone <repository_url>
+
+
+
+
+
+
 # **Exchange Rate Data Retrieval with Frankfurter API**
 This Python script retrieves historical exchange rate data from the Frankfurter API for a specified date range. It utilizes the requests library to send HTTP requests to the API and fetches the data in JSON format. The retrieved data is then converted into a Pandas DataFrame for further analysis and processing.
 
